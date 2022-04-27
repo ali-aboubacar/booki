@@ -3,7 +3,9 @@ body {
   font-family: Raleway, Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
-
+img{
+	object-fit: cover;
+}
 a{
 	text-decoration:none;
 	color:inherit;
@@ -44,9 +46,6 @@ html{
   justify-content: space-between;
 }
 /* navbar and link*/
-.nav-bar{
-}
-
 .nav-bar img{
 	height: 65px;
 }
