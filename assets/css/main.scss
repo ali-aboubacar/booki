@@ -3,6 +3,9 @@ body {
   font-family: Raleway, Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
+img{
+	object-fit:cover;
+}
 html{
 	scroll-behavior: smooth;
 }
@@ -61,8 +64,11 @@ html{
 	color: #292626;
 	text-decoration:none;
 }
-.nav-bar li:hover{
+.nav-bar li:hover {
 	border-top-color: #0059ff;
+	a{
+		color: #0059ff;
+	}
 }
 
 
@@ -361,7 +367,6 @@ footer{
 }
 .footer-block{
 	width:32%;
-	height: 120px;
 }
 .footer-block span{
 	font-size: small;

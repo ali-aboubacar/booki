@@ -5,6 +5,11 @@ body {
           box-sizing: border-box;
 }
 
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -114,6 +119,10 @@ html {
 
 .nav-bar li:hover {
   border-top-color: #0059ff;
+}
+
+.nav-bar li:hover a {
+  color: #0059ff;
 }
 
 /*nav-bar ----END---*/
@@ -500,7 +509,6 @@ footer {
 
 .footer-block {
   width: 32%;
-  height: 120px;
 }
 
 .footer-block span {
