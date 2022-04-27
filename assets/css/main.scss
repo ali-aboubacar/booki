@@ -6,6 +6,10 @@ body {
 img{
 	object-fit:cover;
 }
+a{
+	text-decoration:none;
+	color:inherit;
+}
 html{
 	scroll-behavior: smooth;
 }
